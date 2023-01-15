@@ -1,0 +1,25 @@
+<!-- Name: Karim Sammouri -->
+<!-- Course: CSE 383B -->
+<!-- Instructor: Dr. Kurt Johnson -->
+<!-- Assignment: Lab 8 -->
+<!-- Date: Oct 12, 2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lab 8</title>
+</head>
+<body>
+<form>
+    <label for="Name">Name: </label>
+    <input type="text" id="Name" name="Name" pattern="^[A-Za-z]{2,}$" title="Please enter at least two characters" required><br>
+    <label for="Uid">UID: </label>
+    <input type="text" id="Uid" name="Uid" pattern="^[A-Za-z]+$" title="Please enter one word." required><br>
+    <label for="MobilDevices">Mobile Devices: </label>
+    <input type="number" id="MobilDevices" name="MobilDevices" min="1" max="10" required><br>
+    <label for="quoteCite">Quote: </label>
+    <input type="text" id="quoteCite" name="quoteCite" pattern="^[A-Za-z0-9\x2E\x2C\x2D\x27\x22\x2F\x3A]+$" title="Please enter a URL." required><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

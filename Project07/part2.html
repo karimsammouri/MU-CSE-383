@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+    Name: Karim Sammouri
+    Class: CSE 383B
+    Instructor: Dr. Kurt Johnson
+    Assignment: Homework 7
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSE 383</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="1400" height="800"></canvas>
+        <script>
+            function getRandomNumber(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            } 
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            for (let i = 0; i < 20; i++) {
+                let x = getRandomNumber(0, 1300);
+                let y = getRandomNumber(0, 700);;
+                let length = getRandomNumber(1, 100);
+                let width = getRandomNumber(1, 100);
+                let RGBred = getRandomNumber(0, 255);
+                let RGBgreen = getRandomNumber(0 , 255);
+                let RGBblue = getRandomNumber(0, 255);
+                ctx.beginPath();
+                ctx.moveTo(x, y);
+                ctx.lineTo(x, y + length);
+                ctx.lineTo(x + width, y + length);
+                ctx.fillStyle = "rgb(" + RGBred + ", " + RGBgreen + ", " + RGBblue + ")";
+                ctx.fill();                     
+            }
+        </script>
+    </body>
+</html>
+ 

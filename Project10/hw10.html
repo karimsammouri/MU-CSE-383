@@ -1,0 +1,53 @@
+<!--
+  Name: Karim Sammouri
+  Instructor: Dr. Kurt Johnson
+  Class: CSE 383B
+  Assignment: Homework 10
+  Date: Nov 3, 2021
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="info.js?rev=1"></script>    
+
+    <title>Homework 10</title>
+  </head>
+  <body>
+    <form>
+      <div class="form-row align-items-center">
+        <div class="col-auto">
+          <input type="number" class="form-control mb-2" id="number1" placeholder="Number 1">
+        </div>
+        <div class="col-auto">
+          <input type="number" class="form-control mb-2" id="number2" placeholder="Number 2">          
+        </div>
+        <div class="col-auto">
+          <button type="button"  class="btn btn-primary mb-2" onclick="add();">+</button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary mb-2" onclick="subtract();">-</button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary mb-2" onclick="divide();"">/</button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary mb-2" onclick="multiply();">*</button>
+        </div>
+        <div class="col-auto">
+          <textarea cols="25" rows="1" id="result">Result</textarea>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

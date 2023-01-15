@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+        CSE 383
+        Name: 
+        Assignment: Lab7
+        Description:use JavaScript to create page
+-->
+<html lang="en">
+        <head>
+                <meta charset="utf-8">
+                <title>CSE 383</title>
+                <script type="text/javascript">
+                </script>
+        </head>
+
+        <body>
+                <script language="JavaScript">
+                        // put your script code here to fulfill the assignment
+                        document.write("<h1>Assignment: CSE 383</h1>");
+                        document.write("<h2>Name: Karim Sammouri</h2>");
+                        document.write("<h3>Date: Oct 9, 2021</h3>");
+                        document.write('<button type="button" onClick="doTime();">Time</button>');
+                        function doPicture() {
+                                for (let i = 0; i < 3; i++) {
+                                        let line="<div id=\"pic\"><img src=\"https://picsum.photos/100/150?nonce=" + i + "\"></div>";
+                                        document.write(line);
+                                }
+                        }
+                        doPicture();
+                        function doTime() {
+                                alert(new Date());
+                        }
+                        document.write('<canvas id="myCanvas" width="200" height="100"></canvas>');
+                        var canvas = document.getElementById('myCanvas');
+                        if (canvas.getContext) {
+                                var ctx = canvas.getContext('2d');
+                                ctx.fillStyle = 'rgb(0, 0, 255)';
+                                ctx.fillRect(50, 300, 100, 100);
+                        }
+                </script>
+
+        </body>
+</html>

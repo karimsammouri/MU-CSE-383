@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+    Name: Karim Sammouri
+    Class: CSE 383B
+    Instructor: Dr. Kurt Johnson
+    Assignment: Homework 7
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSE 383</title>
+    </head>
+    <body>
+        <canvas id="myCanvas"></canvas>
+        <script>
+            function getRandomNumber(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+            var canvas = document.getElementById("myCanvas");
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var ctx = canvas.getContext("2d");
+            let x1 = getRandomNumber(50, 850);
+            let y1 = getRandomNumber(50, 850);
+            let x2 = getRandomNumber(50, 850);
+            let y2 = getRandomNumber(50, 850);
+            let x3 = getRandomNumber(50, 850);
+            let y3 = getRandomNumber(50, 850);
+            let count = 0;
+            function draw() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.font = "30px Arial";
+                ctx.fillText("DIV 0 " + count, x1, y1);
+                ctx.fillText("DIV 1 " + count, x2, y2);
+                ctx.fillText("DIV 2 " + count, x3, y3);
+            }
+            function update() {
+                x1 -= 0.06;
+                y1 -= 0.06;
+                x2 += 0.1;
+                y2 -= 0.1;
+                x3 += 0.4;
+                y3 += 0.10;
+                count += 1;
+            }
+            function animation() {
+                update();
+                draw();
+                window.requestAnimationFrame(animation);
+            }
+            setInterval(animation(), 1000);
+        </script>
+    </body>
+</html>
+ 

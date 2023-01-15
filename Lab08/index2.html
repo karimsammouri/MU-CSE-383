@@ -1,0 +1,30 @@
+
+<!-- Name: Karim Sammouri -->
+<!-- Course: CSE 383B -->
+<!-- Instructor: Dr. Kurt Johnson -->
+<!-- Assignment: Lab 8 -->
+<!-- Date: Oct 12, 2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lab 8</title>
+</head>
+<body>
+<script>
+    function checkSubmit() {
+        let myVar=document.getElementById("Name");
+        let nameTest=/^[a-zA-Z]+ [a-zA-Z]+$/;
+        if (!nameTest.test(myVar.value)) {
+            alert("Please enter first and last name");
+            event.preventDefault();
+        }
+    }
+</script>
+<form target="_blank" method="POST">
+    <label for="Name">Full Name: </label>
+    <input type="text" id="Name" name="Name" required>
+    <input type="submit" onclick="checkSubmit();" value="Submit"> 
+</form>
+</body>
+</html>
