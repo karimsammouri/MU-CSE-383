@@ -11,7 +11,13 @@
 </p>
 
 <h2>Landing Page</h2>
+<img width="500" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/Landing.png">
 
-<h2>Directions Page</h2>
+<h2>Navigator Page</h2>
+<img width="500" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/Navigator.png">
+
+<h2>Navigator Page: Live</h2>
+<img width="500" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/NavigatorLive.png">
 
 <h2>History Page</h2>
+<img width="500" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/History.png">
