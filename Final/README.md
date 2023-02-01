@@ -26,6 +26,6 @@ of the following screenshot, the MapQuest API was not supplying the image URLs a
 <img width="500" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/NavigatorLive.png">
 
 <h2>History Page</h2>
-<p>Allows the user to view previous navigation queries based on the date. This feature relied on a phpLiteAdmin setup on a temporary 
+<p>Allows the user to view previous navigation queries based on a given date. This feature relied on a phpLiteAdmin setup on a temporary 
 AWS EC2 instance provided by the course. Since I no longer have access to the EC2 instance, this feature no longer works and can't be demonstrated.</p>
 <img width="500" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/History.png">
