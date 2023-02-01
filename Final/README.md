@@ -14,7 +14,7 @@
 <p>Notice how the section's layout changes as the window's width is shrunk down. The third screenshot is a result of clicking the menu icon shown on the upper-right corner of the second screenshot</p>
 <img height="300" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/Landing.png">
 <img height="300" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/LandingShrunk.png">
-<img height="300" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/LandingShrunk2.png">
+<img height="300" src="https://github.com/karimsammouri/MU-CSE-383/blob/main/Final/Screenshots/LandingShrunkMenu.png">
 
 <h2>Navigator Page</h2>
 <p>Includes form where user can enter two locations. Sample usage can be seen below.</p>
