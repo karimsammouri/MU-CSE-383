@@ -6,7 +6,8 @@
 <p>Displays navigation directions given two locations from the user. Navigation history is saved and can be retrieved by date. 
   Built using HTML, Javascript, CSS, PHP, the MapQuest API for navigation data, and AWS EC2 for temporary hosting and storage. 
   Makes use of phpLiteAdmin (web-based SQLite), JQuery, AJAX, JSON, and Bootstrap. Final project submission for Miami University's 
-  CSE 383: Web Application Programming. Project requirements emphasize a multi-page/multi-tab web client with a focus on responsive 
+  CSE 383: Web Application Programming during the Fall 2021 semester. Project requirements emphasize a multi-page/multi-tab web 
+  client with a focus on responsive 
   design. The following samples are based on screenshots taken on Safari running on a 15-inch Macbook Pro.
 </p>
 
