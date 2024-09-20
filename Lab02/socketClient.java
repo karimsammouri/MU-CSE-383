@@ -10,7 +10,7 @@ import java.util.logging.SimpleFormatter;
 
 /**
  * TODO1
- * arim Sammouri
+ * Karim Sammouri
  * Dr. Kurt Johnson
  * CSE 383-B
  * Lab Module 2 - Git/Sockets
